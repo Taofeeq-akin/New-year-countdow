@@ -66,6 +66,17 @@ h1 {
   padding: 0.5rem 0;
 }
 
+.nextYear {
+  font-size: 12.5rem;
+  color: rgba(255, 255, 0, 0.856);
+  z-index: -1;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 /* Media Query for phone size */
 @media (max-width: 500px) {
   h1 {
